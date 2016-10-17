@@ -7,4 +7,4 @@ settings:
       ^ \s* \b(if|while|else)\b [^;]* $
     | ^ \s* \b(for)\b .* $
   decreaseIndentPattern: ^(.*\*/)?\s*[}].*$
-  increaseIndentPattern: ^.*\{[^}"']*$
+  increaseIndentPattern: ^.*\{[^}"'>]*$
